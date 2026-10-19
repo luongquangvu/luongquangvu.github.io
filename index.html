@@ -1,81 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
   <meta charset="utf-8" />
 
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 
-  <meta
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    name="viewport"
-  />
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
-  <title>Portfolio | Luong Quang Vu Portfolio</title>
+  <title>Luong Quang Vu | Senior Game Designer</title>
 
-  <meta property="og:title" content="Portfolio | Luong Quang Vu" />
+  <meta property="og:title" content="Luong Quang Vu | Senior Game Designer" />
 
   <meta property="og:locale" content="en_US" />
 
-  <link
-    rel="canonical"
-    href="//"
-  />
+  <link rel="canonical" href="https://luongquangvu.github.io" />
 
-  <meta
-    property="og:url"
-    content="//"
-  />
+  <meta property="og:url" content="https://luongquangvu.github.io" />
 
-  <meta
-    name="description"
-    content=""
-  />
+  <meta name="description"
+    content="Senior Game Designer with 10 years of experience in Combat Systems, Level Design, and Monetization across Mobile and Steam." />
+
+  <meta property="og:description"
+    content="Senior Game Designer with 10 years of experience developing and operating commercially successful games across Mobile and Steam." />
 
   <link rel="icon" type="image/png" href="assets/img/favicon202604150750.jpeg" />
 
   <meta name="theme-color" content="#5540af" />
 
-  <meta property="og:site_name" content="Atom Template" />
+  <meta property="og:site_name" content="Luong Quang Vu Portfolio" />
 
-  <meta property="og:image" content="/assets/img/social.jpg" />
+  <meta property="og:image" content="assets/img/social.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
 
-  <meta name="twitter:site" content="@tailwindmade" />
+  <meta name="twitter:title" content="Luong Quang Vu | Senior Game Designer" />
 
-  <link
-    crossorigin="crossorigin"
-    href="https://fonts.gstatic.com"
-    rel="preconnect"
-  />
+  <meta name="twitter:description"
+    content="Senior Game Designer with 10 years of experience in Combat Systems, Level Design, and Monetization across Mobile and Steam." />
 
-  <link
-    as="style"
+  <meta name="twitter:image" content="assets/img/social.jpg" />
+
+  <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
+
+  <link as="style"
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-    rel="preload"
-  />
+    rel="preload" />
 
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+    rel="stylesheet" />
 
-  <link
-    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
-  <link
-    crossorigin="anonymous"
-    href="assets/styles/main.min.css"
-    media="screen"
-    rel="stylesheet"
-  />
-  
-  <script
-    defer
-    src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
-  ></script>
+  <link crossorigin="anonymous" href="assets/styles/main.min.css" media="screen" rel="stylesheet" />
+
+  <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
 
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
@@ -95,19 +75,82 @@
       transform: translateY(-2px);
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
+
+    /* Skill Tags */
+    .skill-tag {
+      display: inline-block;
+      padding: 0.35rem 0.75rem;
+      margin: 0.2rem 0.2rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 9999px;
+      background-color: #ffffff;
+      color: #3c2a8c;
+      border: 1px solid #dcd8f0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .skill-tag:hover {
+      background-color: #5540af;
+      color: #ffffff;
+      border-color: #5540af;
+      transform: translateY(-1px);
+    }
+
+    .skill-tag-featured {
+      background-color: #ede9fe;
+      color: #5540af;
+      border-color: #c4b5fd;
+      font-weight: 700;
+    }
+
+    /* Badges & Metrics cho dự án */
+    .badge-metric {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 9999px;
+      letter-spacing: 0.03em;
+      margin-right: 0.35rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .badge-green {
+      background-color: #e6fcf5;
+      color: #0ca678;
+      border: 1px solid #c3fae8;
+    }
+
+    .badge-primary {
+      background-color: #ede9fe;
+      color: #5540af;
+      border: 1px solid #ddd6fe;
+    }
+
+    .badge-gold {
+      background-color: #fff9db;
+      color: #b07d00;
+      border: 1px solid #ffe066;
+    }
+
+    .badge-blue {
+      background-color: #e7f5ff;
+      color: #1c7ed6;
+      border: 1px solid #d0ebff;
+    }
   </style>
 </head>
 
 
-  <body
-    :class="{ 'overflow-hidden max-h-screen': mobileMenu }"
-    class="relative"
-    x-data="{ mobileMenu: false }"
-  >
-    
-    <div id="main" class="relative">
-      <div
-  x-data="{
+<body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
+
+  <div id="main" class="relative">
+    <div x-data="{
     triggerNavItem(id) {
         $scroll(id)
     },
@@ -115,767 +158,795 @@
         mobileMenu = false;
         this.triggerNavItem(id)
     }
-}"
->
-  <div class="w-full z-50 top-0 py-3 sm:py-5  absolute
+}">
+      <div class="w-full z-50 top-0 py-3 sm:py-5  absolute
   ">
-  <div class="container flex items-center justify-between">
-    <div>
-      <a href="/"></a>
-    </div>
-    <div class="hidden lg:block">
-      <ul class="flex items-center">
-        
-        <li class="group pl-6">
-          
-          <span
-            @click="triggerNavItem('#about')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-            >About</span
-          >
-          
-          <span
-            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-          ></span>
-        </li>
-        
-        <li class="group pl-6">
-          
-          <span
-            @click="triggerNavItem('#portfolio')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-            >Portfolio</span
-          >
-          
-          <span
-            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-          ></span>
-        </li>
-        
-        <li class="group pl-6">
-          
-          <span
-            @click="triggerNavItem('#work')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-            >Work</span
-          >
-          
-          <span
-            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-          ></span>
-        </li>
-        
-        <li class="group pl-6">
-          
-          <span
-            @click="triggerNavItem('#contact')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-            >Contact</span
-          >
-          
-          <span
-            class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-          ></span>
-        </li>
-        
-      </ul>
-    </div>
-    <div class="block lg:hidden">
-      <button @click="mobileMenu = true">
-        <i class="bx bx-menu text-4xl text-white"></i>
-      </button>
-    </div>
-  </div>
-</div>
+        <div class="container flex items-center justify-between">
+          <div>
+            <a href="/"></a>
+          </div>
+          <div class="hidden lg:block">
+            <ul class="flex items-center">
 
-<div
-  class="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden"
-  :class="{ 'opacity-100 pointer-events-auto': mobileMenu }"
->
-  <div
-    class="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3"
-  >
-    <button
-      class="absolute top-0 right-0 mt-4 mr-4"
-      @click="mobileMenu = false"
-    >
-      <img src="assets/img/icon-close.svg" class="h-10 w-auto" alt="" />
-    </button>
+              <li class="group pl-6">
 
-    <ul class="mt-8 flex flex-col">
-      
-      <li class="py-2">
-        
-        <span
-          @click="triggerMobileNavItem('#about')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >About</span
-        >
-        
-      </li>
-      
-      <li class="py-2">
-        
-        <span
-          @click="triggerMobileNavItem('#portfolio')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >Portfolio</span
-        >
-        
-      </li>
-      
-      <li class="py-2">
-        
-        <span
-          @click="triggerMobileNavItem('#work')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >Work</span
-        >
-        
-      </li>
-      
-      <li class="py-2">
-        
-        <span
-          @click="triggerMobileNavItem('#contact')"
-          class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-          >Contact</span
-        >
-        
-      </li>
-      
-    </ul>
-  </div>
-</div>
+                <span @click="triggerNavItem('#about')"
+                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span>
 
+                <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+              </li>
+
+              <li class="group pl-6">
+
+                <span @click="triggerNavItem('#portfolio')"
+                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span>
+
+                <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+              </li>
+
+              <li class="group pl-6">
+
+                <span @click="triggerNavItem('#work')"
+                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span>
+
+                <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+              </li>
+
+              <li class="group pl-6">
+
+                <span @click="triggerNavItem('#education')"
+                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Education</span>
+
+                <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+              </li>
+
+              <li class="group pl-6">
+
+                <span @click="triggerNavItem('#contact')"
+                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Contact</span>
+
+                <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+              </li>
+
+            </ul>
+          </div>
+          <div class="block lg:hidden">
+            <button @click="mobileMenu = true">
+              <i class="bx bx-menu text-4xl text-white"></i>
+            </button>
+          </div>
+        </div>
+      </div>
 
       <div
-  class="relative bg-cover bg-center bg-no-repeat py-8"
-  style="background-image: url(assets/img/bg-hero.jpg)"
->
-  <div
-    class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"
-  ></div>
+        class="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden"
+        :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
+        <div class="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
+          <button class="absolute top-0 right-0 mt-4 mr-4" @click="mobileMenu = false">
+            <img src="assets/img/icon-close.svg" class="h-10 w-auto" alt="" />
+          </button>
 
-  <div
-    class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48"
-  >
-    <div class="flex flex-col items-center justify-center lg:flex-row">
-      <div class="rounded-full border-8 border-primary shadow-xl">
-        <img
-          src="assets/img/Kaito.jfif"
-          class="h-48 rounded-full sm:h-56"
-          alt="author"
-        />
+          <ul class="mt-8 flex flex-col">
+
+            <li class="py-2">
+
+              <span @click="triggerMobileNavItem('#about')"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span>
+
+            </li>
+
+            <li class="py-2">
+
+              <span @click="triggerMobileNavItem('#portfolio')"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span>
+
+            </li>
+
+            <li class="py-2">
+
+              <span @click="triggerMobileNavItem('#work')"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span>
+
+            </li>
+
+            <li class="py-2">
+
+              <span @click="triggerMobileNavItem('#education')"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Education</span>
+
+            </li>
+
+            <li class="py-2">
+
+              <span @click="triggerMobileNavItem('#contact')"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Contact</span>
+
+            </li>
+
+          </ul>
+        </div>
       </div>
-      <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
-        <h1
-          class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl"
-          style="white-space: nowrap;"
-        >
-          Hello I'm Luong Quang Vu!
-        </h1>
+
+
+      <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url(assets/img/bg-hero.jpg)">
         <div
-          class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start"
-        >
-          
-          <div
-            class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0"
-          >
-            <a
-              href="assets/Luong_Quang_Vu_CV.pdf"
-              download="Luong_Quang_Vu_CV.pdf"
-              style="margin-right: 30px"
-              class="btn-resume rounded px-6 py-2 font-header text-sm font-bold uppercase shadow-md"
-            >
-              Resume
-            </a>
-          </div>
-          <div
-            class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0"
-          >
-            <a href="/">
-              <i
-                class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"
-              ></i>
-            </a>
-            <a href="http://www.linkedin.com/in/vu-luongquang" class="pl-4">
-              <i
-                class="bx bxl-linkedin text-2xl text-white hover:text-yellow"
-              ></i>
-            </a>
-            <a href="mailto:luongquangvu94@gmail.com" class="pl-4">
-              <i
-                class="bx bxs-envelope text-2xl text-white hover:text-yellow"
-              ></i>
-            </a>
+          class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat">
+        </div>
+
+        <div class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
+          <div class="flex flex-col items-center justify-center lg:flex-row">
+            <div class="rounded-full border-8 border-primary shadow-xl">
+              <img src="assets/img/Kaito.jfif" class="h-48 rounded-full sm:h-56" alt="author" />
+            </div>
+            <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+              <h1 class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl"
+                style="white-space: nowrap;">
+                Hello, I'm Luong Quang Vu!
+              </h1>
+              <div class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
+
+                <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
+                  <a href="assets/Luong_Quang_Vu_CV.pdf" download="Luong_Quang_Vu_CV.pdf" style="margin-right: 30px"
+                    class="btn-resume rounded px-6 py-2 font-header text-sm font-bold uppercase shadow-md">
+                    Resume
+                  </a>
+                </div>
+                <div class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
+                  <a href="https://www.linkedin.com/in/vu-luongquang" target="_blank" rel="noopener noreferrer"
+                    title="LinkedIn">
+                    <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
+                  </a>
+                  <a href="mailto:luongquangvu94@gmail.com" class="pl-4" title="Email">
+                    <i class="bx bxs-envelope text-2xl text-white hover:text-yellow"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
-<div class="bg-grey-50" id="about">
-  <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
-    <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
-      <h2
-        class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-      >
-        Who am I?
-      </h2>
-      <h4
-        class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
-      >
-        I'm Luong Quang Vu, a Game Designer
-      </h4>
-      <p class="pt-6 font-body leading-relaxed text-grey-20">
-        With more than 10 years of experience in the game industry, I have contributed to the success of many diverse projects ranging from Mobile to PC (Steam).
-        With strong expertise in
-        <span style="background-color: #8b2e44; color: white; padding: 2px 4px; border-radius: 4px; margin: 0 2px; font-weight: 500; display: inline-block;">Combat Systems</span>, 
-        <span style="background-color: #2e8b65; color: white; padding: 2px 4px; border-radius: 4px; margin: 0 2px; font-weight: 500; display: inline-block;">Level Design</span> and 
-        <span style="background-color: #5540af; color: white; padding: 2px 4px; border-radius: 4px; margin: 0 2px; font-weight: 500; display: inline-block;">Monetization</span>,
-         I not only design engaging game mechanics but also optimize user experience based on real data.
-      </p>
-      <div
-        class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start"
-      >
-        <div class="flex items-center justify-center sm:justify-start">
-          <p class="font-body text-lg font-semibold uppercase text-grey-20">
-            Connect with me
+      <div class="bg-grey-50" id="about">
+        <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
+          <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
+            <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+              Who am I?
+            </h2>
+            <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+              I'm Luong Quang Vu, a Senior Game Designer
+            </h4>
+            <p class="pt-6 font-body leading-relaxed text-grey-20 text-justify">
+              Senior Game Designer with 10 years of experience developing and operating commercially successful games
+              across Mobile and Steam, spanning Midcore RPG, Casual, and Puzzle genres.
+              My core expertise lies at the intersection of
+              <span
+                style="background-color: #8b2e44; color: white; padding: 2px 6px; border-radius: 4px; font-weight: 600; display: inline-block;">Combat
+                Systems</span>,
+              <span
+                style="background-color: #2e8b65; color: white; padding: 2px 6px; border-radius: 4px; font-weight: 600; display: inline-block;">Level
+                Design</span> and
+              <span
+                style="background-color: #5540af; color: white; padding: 2px 6px; border-radius: 4px; font-weight: 600; display: inline-block;">Monetization</span>.
+              I blend creative mechanics design with in-depth data telemetry to craft highly engaging player experiences
+              that drive sustainable commercial growth.
+            </p>
+            <div class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
+              <div class="flex items-center justify-center sm:justify-start">
+                <p class="font-body text-lg font-semibold uppercase text-grey-20">
+                  Connect with me
+                </p>
+                <div class="hidden sm:block">
+                  <i class="bx bx-chevron-right text-2xl text-primary"></i>
+                </div>
+              </div>
+              <div class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
+                <a href="https://www.linkedin.com/in/vu-luongquang" target="_blank" rel="noopener noreferrer"
+                  title="LinkedIn">
+                  <i class="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
+                </a>
+                <a href="mailto:luongquangvu94@gmail.com" class="pl-4" title="Email">
+                  <i class="bx bxs-envelope text-2xl text-primary hover:text-yellow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
+            <div style="background-color: rgba(255, 255, 255, 0);"
+              class="rounded-xl bg-white p-6 shadow-sm border border-grey-60">
+              <h3 class="font-header text-xl font-bold uppercase text-primary border-b border-grey-60 pb-3">
+                Core Skills & Expertise
+              </h3>
+
+              <!-- Category 1: Game Systems -->
+              <div class="pt-4">
+                <h4 class="font-header text-xs font-bold uppercase tracking-wider text-black flex items-center mb-2">
+                  <i class="bx bx-joystick text-base text-primary mr-1.5"></i> Game Systems
+                </h4>
+                <div class="flex flex-wrap">
+                  <span class="skill-tag skill-tag-featured">Combat Systems</span>
+                  <span class="skill-tag skill-tag-featured">LiveOps Meta Balancing</span>
+                  <span class="skill-tag">F2P Monetization & Gacha</span>
+                  <span class="skill-tag">Tactical AI</span>
+                </div>
+              </div>
+
+              <!-- Category 2: Level Design -->
+              <div class="pt-4">
+                <h4 class="font-header text-xs font-bold uppercase tracking-wider text-black flex items-center mb-2">
+                  <i class="bx bx-map-pin text-base text-primary mr-1.5"></i> Level Design
+                </h4>
+                <div class="flex flex-wrap">
+                  <span class="skill-tag skill-tag-featured">Whitebox Blockout</span>
+                  <span class="skill-tag skill-tag-featured">2D & 3D Combat Arenas</span>
+                  <span class="skill-tag">Combat Pacing</span>
+                </div>
+              </div>
+
+              <!-- Category 3: Technical / Engines -->
+              <div class="pt-4">
+                <h4 class="font-header text-xs font-bold uppercase tracking-wider text-black flex items-center mb-2">
+                  <i class="bx bx-code-alt text-base text-primary mr-1.5"></i> Technical / Engines
+                </h4>
+                <div class="flex flex-wrap">
+                  <span class="skill-tag skill-tag-featured">Unity Engine</span>
+                  <span class="skill-tag skill-tag-featured">Data Analytics</span>
+                  <span class="skill-tag">Economy Modeling (Excel)</span>
+                </div>
+              </div>
+
+              <!-- Category 4: Production / Tools -->
+              <div class="pt-4">
+                <h4 class="font-header text-xs font-bold uppercase tracking-wider text-black flex items-center mb-2">
+                  <i class="bx bx-briefcase text-base text-primary mr-1.5"></i> Production & Collaboration
+                </h4>
+                <div class="flex flex-wrap">
+                  <span class="skill-tag skill-tag-featured">Strategic Roadmaps</span>
+                  <span class="skill-tag skill-tag-featured">Design Leadership</span>
+                  <span class="skill-tag">Git / SVN</span>
+                  <span class="skill-tag">Figma / Miro</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-16 md:py-20" id="portfolio">
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          Check out my Projects
+        </h2>
+        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+          Featured Projects &amp; Commercial Releases
+        </h3>
+
+        <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
+          <a href="https://store.steampowered.com/app/4320570/SKID_Toris_Frozen_Racing/" target="_blank"
+            rel="noopener noreferrer" class="mx-auto transform transition-all hover:scale-105 md:mx-0 block">
+            <img src="assets/img/skiddd.jpg" class="w-full shadow" alt="SKIDDDDDD: Tori's Frozen Racing" />
+            <div class="relative flex">
+              <div class="mt-1 flex w-full">
+                <div class="md:-mt-1 w-full">
+                  <div class="pt-4 flex flex-wrap items-center">
+                    <span class="badge-metric badge-green"><i class="bx bxl-steam"></i> Steam (PC)</span>
+                    <span class="badge-metric badge-gold">Lead Game Designer</span>
+                  </div>
+                  <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                    SKIDDDDDD: Tori's Frozen Racing (2026)
+                  </span>
+                  <div class="pt-2">
+                    <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
+                      As the <b>Lead Game Designer</b>, I architected the development roadmap and guided the team
+                      through
+                      full production to a successful commercial launch on Steam (PC) in April 2026.
+                      I mentored and directed the level design team in constructing dynamic ice racing tracks utilizing
+                      modular building block workflows.
+                    </span>
+                  </div>
+
+                  <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5"
+                    style="list-style-type: disc !important;">
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Roadmap & Production Direction:</b> Guided milestones and sprint alignment from concept to
+                      commercial launch on Steam.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Modular Track Creation Pipeline:</b> Standardized workflows from whitebox blockouts to
+                      environment dressing (props, foliage) and atmospheric VFX.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Racing Flow & Visual Signposting:</b> Designed optimal racing lines, vehicle camera curves, and
+                      intuitive visual cues for high-speed ice drifting.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://games.gala.com/games/eternal-paradox" target="_blank" rel="noopener noreferrer"
+            class="mx-auto transform transition-all hover:scale-105 md:mx-0 block">
+            <img src="assets/img/EPX.jpg" class="w-full shadow" alt="Eternal Paradox" />
+            <div class="relative flex">
+              <div class="mt-1 flex w-full">
+                <div class="md:-mt-1 w-full">
+                  <div class="pt-4 flex flex-wrap items-center">
+                    <span class="badge-metric badge-primary"><i class="bx bx-mobile-alt"></i> Mobile & Web3</span>
+                    <span class="badge-metric badge-green">LiveOps</span>
+                    <span class="badge-metric badge-gold">Lead Game Designer</span>
+                  </div>
+                  <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                    Eternal Paradox (LiveOps)
+                  </span>
+                  <div class="pt-2">
+                    <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
+                      Audited complex data architecture across hybrid 4X/RPG systems; re-engineered legacy balance
+                      models
+                      across both gameplay layers (Turn-based Mercenary combat and 4X territory building) to safeguard
+                      stability and prevent power creep and hyperinflation across Web2 mobile and Web3 ecosystems.
+                    </span>
+                  </div>
+
+                  <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5"
+                    style="list-style-type: disc !important;">
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Data-Informed META Rebalancing:</b> Rebalanced Mercenary roster based on live usage telemetry,
+                      directly enhancing player retention and IAP revenue.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Design KPIs & Telemetry Framework:</b> Rebuilt analytics models to identify progression
+                      chokepoints
+                      and offer conversions, maximizing long-term LTV.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Economy Parity & Exploit Mitigation:</b> Preserved progression balance between F2P and Web3
+                      users
+                      while auditing and resolving payment exploits.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.divmob.warriorsdefend" target="_blank"
+            rel="noopener noreferrer" class="mx-auto transform transition-all hover:scale-105 md:mx-0 block">
+            <img src="assets/img/warriorsdefend (Custom).jpg" class="w-full shadow"
+              alt="Warriors Defend: Castle Defend" />
+            <div class="relative flex">
+              <div class="mt-1 flex w-full">
+                <div class="md:-mt-1 w-full">
+                  <div class="pt-4 flex flex-wrap items-center">
+                    <span class="badge-metric badge-primary"><i class="bx bxs-download"></i> 1,000,000+ Downloads</span>
+                    <span class="badge-metric badge-green">Mobile TD</span>
+                  </div>
+                  <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                    Warriors Defend: Castle Defend (2022)
+                  </span>
+                  <div class="pt-2">
+                    <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
+                      Surpassed 1M+ total downloads globally. Tuned warrior balance, stage upgrade costs, and dynamic
+                      enemy
+                      wave scaling to preserve strategic depth in offensive and defensive siege gameplay across varied
+                      modular environments.
+                    </span>
+                  </div>
+
+                  <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5"
+                    style="list-style-type: disc !important;">
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Dynamic Siege Pacing & Wave Scaling:</b> Designed procedural stage difficulty generation,
+                      dungeon
+                      expeditions, and Challenge Mode progression economies.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Cohort-Driven Retention Lift:</b> Rebalanced early-game difficulty curves based on cohort
+                      analytics,
+                      measurably boosting D1/D7 player retention.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Level Architecture & Modular Dressing:</b> Constructed defensive stages using modular building
+                      block
+                      workflows, environmental dressing, and tactical camera framing.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Reward Economy & Ad Placements:</b> Designed timed reward chest mechanics and integrated
+                      rewarded video
+                      ad triggers across dungeon and system menus.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.divmob.impostor" target="_blank"
+            rel="noopener noreferrer" class="mx-auto transform transition-all hover:scale-105 md:mx-0 block">
+            <img src="assets/img/impostor.jpg" class="w-full shadow" alt="Legions War: Art of Strategy" />
+            <div class="relative flex">
+              <div class="mt-1 flex w-full">
+                <div class="md:-mt-1 w-full">
+                  <div class="pt-4 flex flex-wrap items-center">
+                    <span class="badge-metric badge-primary"><i class="bx bxs-download"></i> 1,000,000+ Downloads</span>
+                    <span class="badge-metric badge-green">Mobile Strategy</span>
+                  </div>
+                  <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                    Legions War: Art of Strategy (2021)
+                  </span>
+                  <div class="pt-2">
+                    <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
+                      Surpassed 1M+ total downloads globally. Engineered a hybrid battle system combining base defense
+                      with large-scale tactical army command; balanced unit archetype stats, formation placement, and
+                      upgrade
+                      costs for a broad mobile audience.
+                    </span>
+                  </div>
+
+                  <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5"
+                    style="list-style-type: disc !important;">
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Procedural Level Generation:</b> Architected a procedural level difficulty generation system,
+                      significantly reducing manual design overhead and production time.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Unit-Merge & Tier Progression:</b> Designed core merge mechanics and tier progression trees,
+                      balancing casual accessibility with tactical depth.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Boss & Tactical Combat Mechanics:</b> Designed campaign difficulty curves and tailored combat
+                      mechanics
+                      for Giant Bosses and Enemy Commanders.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Hybrid Monetization:</b> Paired IAP (Monthly VIP subscriptions, army progression packs) with
+                      rewarded video ad triggers (4x post-match multiplier).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.divmob.fantasyleague" target="_blank"
+            rel="noopener noreferrer" class="mx-auto transform transition-all hover:scale-105 md:mx-0 block">
+            <img src="assets/img/Fantasy League.jpg" class="w-full shadow" alt="Fantasy League" />
+            <div class="relative flex">
+              <div class="mt-1 flex w-full">
+                <div class="md:-mt-1 w-full">
+                  <div class="pt-4 flex flex-wrap items-center">
+                    <span class="badge-metric badge-primary"><i class="bx bxs-download"></i> 500,000+ Downloads</span>
+                    <span class="badge-metric badge-green">Turn-Based RPG</span>
+                  </div>
+                  <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                    Fantasy League (2020)
+                  </span>
+                  <div class="pt-2">
+                    <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
+                      Surpassed 500K+ total downloads globally. Co-developed core turn-based combat mechanics, hero
+                      class
+                      systems, battle pacing, and designed challenging multi-phase Boss encounters and tactical enemy AI
+                      behavior trees.
+                    </span>
+                  </div>
+
+                  <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5"
+                    style="list-style-type: disc !important;">
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Multi-Phase Boss & Tactical AI:</b> Designed complex Boss encounter mechanics and enemy AI
+                      behavior
+                      trees ensuring unpredictability, counterplay, and tactical depth.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Campaign Narrative & World Lore:</b> Penned campaign storylines, world lore, and decorated
+                      tactical
+                      high-fantasy battlegrids with atmospheric props and cinematic hero camera curves.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Combat Pacing & Class Systems:</b> Tuned turn-based combat balance, hero role archetypes, and
+                      evolving
+                      META logic boards across Adventure and PvP modes.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>LiveOps & Retention Loops:</b> Operated seasonal content drops, premium shop packages, system
+                      data
+                      tables, and daily reward retention loops (2020–2022).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.divmob.eternitylegends.leagueofgods"
+            target="_blank" rel="noopener noreferrer"
+            class="mx-auto transform transition-all hover:scale-105 md:mx-0 block">
+            <img src="assets/img/Eternity Legends.jpg" class="w-full shadow" alt="Eternity Legends" />
+            <div class="relative flex">
+              <div class="mt-1 flex w-full">
+                <div class="md:-mt-1 w-full">
+                  <div class="pt-4 flex flex-wrap items-center">
+                    <span class="badge-metric badge-gold"><i class="bx bxs-award"></i> Google Play Accelerator</span>
+                    <span class="badge-metric badge-primary"><i class="bx bxs-download"></i> 2,000,000+ Downloads</span>
+                    <span class="badge-metric badge-blue">500K+ Pre-regs</span>
+                  </div>
+                  <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                    Eternity Legends (2018)
+                  </span>
+                  <div class="pt-2">
+                    <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
+                      Generated 500K+ pre-registrations and surpassed 2M+ total downloads worldwide. Selected for the
+                      prestigious
+                      <b>Google Play Indie Games Accelerator</b> program. Designed and tuned real-time ARPG combat
+                      systems,
+                      hero skill kits, and the evolving competitive META throughout the product lifecycle.
+                    </span>
+                  </div>
+
+                  <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5"
+                    style="list-style-type: disc !important;">
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>ARPG Combat Systems & Hero Rosters:</b> Engineered real-time combat pacing, skill synergy
+                      trees,
+                      and visual combat feedback across 3D modular arenas.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Multi-Mode Level Architecture:</b> Balanced difficulty curves and reward distribution for
+                      Adventure,
+                      Sky Scraper (Tower), Star Gates, Global Boss, and PvP Arena modes.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>LiveOps Event Roadmaps:</b> Formulated live-service operational roadmaps, seasonal event
+                      cadences,
+                      and recurring content drops.
+                    </li>
+                    <li class="pb-1" style="display: list-item !important;">
+                      <b>Monetization & Gacha Economy:</b> Designed tiered IAP bundles and transparent gacha drop
+                      tables,
+                      preserving fair competitive balance across player tiers.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="container bg-grey-50 py-16 md:py-20" id="work">
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          My work experience
+        </h2>
+        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+          Career History &amp; Professional Experience
+        </h3>
+
+        <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
+          <span class="left-2/5 absolute inset-y-0 ml-10 hidden w-0.5 bg-grey-40 md:block"></span>
+
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-center">
+                <span class="shrink-0">
+                  <img src="assets/img/riddlers-logo.png" class="h-24 w-auto" alt="company logo" />
+                </span>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span
+                  class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40">August 2025 - Present</span>
+                    <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Senior Game
+                      Designer</span>
+                    <div class="pt-2 text-sm text-black leading-relaxed text-justify">
+                      <p class="pb-1.5">
+                        • Direct strategic game design roadmaps, level design pipelines, and live operational frameworks
+                        across Steam (PC) and Mobile titles.
+                      </p>
+                      <p class="pb-1.5">
+                        • Re-engineer complex system architectures, economy balance models, and progression loops across
+                        Web2 and Web3 ecosystems to safeguard long-term stability.
+                      </p>
+                      <p>
+                        • Build telemetry and KPI analytics frameworks to identify progression chokepoints, optimize
+                        LTV, and mentor the design team from concept to commercial launch.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-center">
+                <span class="shrink-0">
+                  <img src="assets/img/ONEUNIVERSEVN_CI.png" class="h-12 w-auto" alt="company logo" />
+                </span>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span
+                  class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40">March 2025 - June 2025</span>
+                    <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Senior Game
+                      Designer</span>
+                    <div class="pt-2 text-sm text-black leading-relaxed text-justify">
+                      <p class="pb-1.5">
+                        • Re-architected core RPG progression curves, character skill kits, and talent mastery trees
+                        aligned with modern benchmarks.
+                      </p>
+                      <p class="pb-1.5">
+                        • Overhauled competitive META balancing and structured seasonal content cadences synchronized
+                        with narrative releases.
+                      </p>
+                      <p>
+                        • Researched and optimized in-game monetization packaging, gacha drop rates, and meta-feature
+                        systems to lift paying user conversion rates.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+            <div class="md:w-2/5">
+              <div class="flex justify-center md:justify-center">
+                <span class="shrink-0">
+                  <img src="assets/img/divmob-logo.png" class="h-12 w-auto" alt="company logo" />
+                </span>
+              </div>
+            </div>
+            <div class="md:w-3/5">
+              <div class="relative flex md:pl-18">
+                <span
+                  class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                <div class="mt-1 flex">
+                  <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                  <div class="md:-mt-1 md:pl-8">
+                    <span class="block font-body font-bold text-grey-40">May 2016 - January 2025 (8 yrs 9 mos)</span>
+                    <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Game Designer / Middle
+                      Game Designer</span>
+                    <div class="pt-2 text-sm text-black leading-relaxed text-justify">
+                      <p class="pb-1.5">
+                        • Engineered core combat mechanics, battle pacing, multi-phase Boss encounters, and tactical
+                        enemy AI behavior trees across multiple 2D/3D mobile titles with over <b>5M+ total
+                          downloads</b>.
+                      </p>
+                      <p class="pb-1.5">
+                        • Architected procedural level difficulty generation systems and modular environment pipelines,
+                        significantly reducing manual production overhead.
+                      </p>
+                      <p>
+                        • Designed hybrid monetization economies (VIP subscriptions, tiered IAP bundles, gacha drop
+                        tables, and rewarded video ads) and optimized retention loops based on cohort telemetry.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-16 md:py-20" id="education">
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          Education
+        </h2>
+        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+          Academic Background &amp; Degree
+        </h3>
+
+        <div class="mx-auto mt-12 w-full lg:w-2/3">
+          <div class="rounded-xl border border-grey-60 bg-white p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+              <div class="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl"
+                style="background-color: #ede9fe;">
+                <i class="bx bxs-graduation text-4xl" style="color: #5540af;"></i>
+              </div>
+              <div class="flex-1 text-center sm:text-left">
+                <div class="flex flex-wrap items-center justify-center sm:justify-start gap-1 pb-2">
+                  <span class="badge-metric badge-primary"><i class="bx bxs-graduation"></i> Bachelor of Science</span>
+                  <span class="badge-metric badge-green"><i class="bx bx-calendar"></i> 2012 – 2017</span>
+                  <span class="badge-metric badge-gold"><i class="bx bxs-award"></i> HCMUT</span>
+                </div>
+                <h4 class="font-header text-xl sm:text-2xl font-bold uppercase text-primary">
+                  Bachelor of Science in Computer Science
+                </h4>
+                <p class="pt-1 font-header text-base font-semibold text-black">
+                  Ho Chi Minh City University of Technology – VNU-HCM (HCMUT)
+                </p>
+                <p class="pt-3 font-body text-sm text-grey-20 leading-relaxed text-justify">
+                  Completed rigorous studies in Computer Science, Software Architecture, Data Structures &amp;
+                  Algorithms, and Object-Oriented Design.
+                  This technical engineering foundation empowers seamless cross-disciplinary collaboration with
+                  development teams, complex mathematical modeling for game economies and combat systems, and high-level
+                  technical prototyping in Unity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color: rgb(244, 243, 248);" class="container py-16 md:py-20" id="contact">
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          Here's my contact
+        </h2>
+        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+          Have Any Questions?
+        </h3>
+        <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
+          <p class="font-body text-grey-10">
+            Feel free to contact me, I will try to answer as soon as possible.
           </p>
-          <div class="hidden sm:block">
-            <i class="bx bx-chevron-right text-2xl text-primary"></i>
+        </div>
+        <div class="flex flex-col pt-16 lg:flex-row">
+          <div class="w-full border-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3">
+            <div class="flex items-center">
+              <i class="bx bx-phone text-2xl text-grey-40"></i>
+              <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+                My Phone
+              </p>
+            </div>
+            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+              <a href="tel:+84792997769" class="hover:text-yellow transition-colors">(+84) 792 997 769</a>
+            </p>
+          </div>
+          <div
+            class="w-full border-t-0 border-b-2 border-l-2 border-r-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-t-2 lg:border-l-0">
+            <div class="flex items-center">
+              <i class="bx bx-envelope text-2xl text-grey-40"></i>
+              <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+                My Email
+              </p>
+            </div>
+            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+              <a href="mailto:luongquangvu94@gmail.com"
+                class="hover:text-yellow transition-colors">luongquangvu94@gmail.com</a>
+            </p>
+          </div>
+          <div
+            class="w-full border-t-0 border-b-2 border-l-2 border-r-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-t-2 lg:border-l-0">
+            <div class="flex items-center">
+              <i class="bx bx-map-pin text-2xl text-grey-40"></i>
+              <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+                Location
+              </p>
+            </div>
+            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+              Ho Chi Minh City, Vietnam
+            </p>
           </div>
         </div>
-        <div
-          class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0"
-        >
-          <a href="/">
-            <i
-              class="bx bxl-facebook-square text-2xl text-primary hover:text-yellow"
-            ></i>
-          </a>
-          <a href="http://www.linkedin.com/in/vu-luongquang" class="pl-4">
-            <i
-              class="bx bxl-linkedin text-2xl text-primary hover:text-yellow"
-            ></i>
-          </a>
-          <a href="mailto:luongquangvu94@gmail.com" class="pl-4">
-            <i
-              class="bx bxs-envelope text-2xl text-primary hover:text-yellow"
-            ></i>
-          </a>
-        </div>
       </div>
+
     </div>
-    <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
-      <div>
-        <div class="flex items-end justify-between">
-          <h4 class="font-body font-semibold uppercase text-black">
-            System & Mechanics Design
-          </h4>
-          <h3 class="font-body text-3xl font-bold text-primary">95%</h3>
-        </div>
-        <div class="mt-2 h-3 w-full rounded-full bg-lila">
-          <div class="h-3 rounded-full bg-primary" style="width: 95%"></div>
-        </div>
-      </div>
-      <div class="pt-6">
-        <div class="flex items-end justify-between">
-          <h4 class="font-body font-semibold uppercase text-black">Level Design</h4>
-          <h3 class="font-body text-3xl font-bold text-primary">78%</h3>
-        </div>
-        <div class="mt-2 h-3 w-full rounded-full bg-lila">
-          <div class="h-3 rounded-full bg-primary" style="width: 78%"></div>
-        </div>
-      </div>
-      <div class="pt-6">
-        <div class="flex items-end justify-between">
-          <h4 class="font-body font-semibold uppercase text-black">
-            Economy & Monetization
-          </h4>
-          <h3 class="font-body text-3xl font-bold text-primary">89%</h3>
-        </div>
-        <div class="mt-2 h-3 w-full rounded-full bg-lila">
-          <div class="h-3 rounded-full bg-primary" style="width: 89%"></div>
-        </div>
-      </div>
-      <div class="pt-6">
-        <div class="flex items-end justify-between">
-          <h4 class="font-body font-semibold uppercase text-black">Data Analysis</h4>
-          <h3 class="font-body text-3xl font-bold text-primary">82%</h3>
-        </div>
-        <div class="mt-2 h-3 w-full rounded-full bg-lila">
-          <div class="h-3 rounded-full bg-primary" style="width: 82%"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="container py-16 md:py-20" id="portfolio">
-  <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-  >
-    Check out my Projects
-  </h2>
-  <h3
-    class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
-  >
-    Here's what I have done with the past
-  </h3>
-
-  <div
-    class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2"
-  >
-    <a
-      href="https://store.steampowered.com/app/4320570/SKIDDDDDD_Toris_Frozen_Racing/"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="assets/img/skiddd.jpg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-      <div class="relative flex">
-        <div class="mt-1 flex">
-          <div class="md:-mt-1 ">
-            <span class="block pt-4 font-header text-xl font-bold uppercase text-primary">
-              SKIDDDDDD: Tori's Frozen Racing (2026)
-            </span>
-            <div class="pt-2">
-              <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
-                As the <b>Lead Game Designer</b>, I provided the core strategic direction and framework to bring this co-op racing title to life.
-                I was responsible for analyzing customer requirements to create actionable development roadmaps, supporting and guiding the Level Design team in constructing track layouts using modular building blocks.
-              </span>
-            </div>
-
-            <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5" style="list-style-type: disc !important;">
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Strategic direction and team leadership</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Level construction and decoration</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Racing flow and track layout design guide</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Gameplay design metrics and roadmaps</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Camera curves and creation of visual effects</b>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </a>
-    
-    <a
-      href="/"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="assets/img/EPX.jpg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-      <div class="relative flex">
-        <div class="mt-1 flex">
-          <div class="md:-mt-1 ">
-            <span class="block pt-4 font-header text-xl font-bold uppercase text-primary">
-              Eternal Paradox (Live Ops)
-            </span>
-            <div class="pt-2">
-              <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
-                I was responsible for revitalizing the game's Live Ops ecosystem and reward structures.
-                I built a comprehensive design metrics framework to analyze user behavior and live database trends, allowing me to develop strategic plans that successfully maximized overall revenue.
-                This iterative process involved reverse-engineering legacy balance logic to ensure that new hero releases and content updates remained stable and engaging over time.
-              </span>
-            </div>
-
-            <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5" style="list-style-type: disc !important;">
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Live Ops strategy and revenue optimization</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Design metrics framework and data analysis</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Legacy system reverse-engineering and balancing</b>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </a>
-    
-    <a
-      href="https://play.google.com/store/apps/details?id=com.divmob.impostor"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="assets/img/impostor.jpg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-      <div class="relative flex">
-        <div class="mt-1 flex">
-          <div class="md:-mt-1 ">
-            <span class="block pt-4 font-header text-xl font-bold uppercase text-primary">
-              Legions War: Art of Strategy (2021)
-            </span>
-            <div class="pt-2">
-              <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
-                For Legions War: Art of Strategy, I designed the core merge mechanics and unit upgrade systems, focusing on creating a deep yet accessible strategic loop for a broad mobile audience.
-                This was an iterative process where I constructed the tactical battlefield layouts and decorated the environments with small-scale props to enhance the "Art of War" theme.
-              </span>
-            </div>
-
-            <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5" style="list-style-type: disc !important;">
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Strategic direction and core mechanics</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Level design</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Gameplay design metrics and roadmaps</b>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </a>
-    
-    <a
-      href="https://play.google.com/store/apps/details?id=com.divmob.warriorsdefend"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="assets/img/warriorsdefend (Custom).jpg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-      <div class="relative flex">
-        <div class="mt-1 flex">
-          <div class="md:-mt-1 ">
-            <span class="block pt-4 font-header text-xl font-bold uppercase text-primary">
-              Warriors Defend: Castle Defend (2020)
-            </span>
-            <div class="pt-2">
-              <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
-                I designed the strategic wave logic and enemy progression paths to ensure a balanced yet challenging tower defense experience.
-                I constructed the defensive stages using a modular environment system, following an iterative process that refined simple pathing into detailed battlefields decorated with foliage and small-scale props.
-                
-              </span>
-            </div>
-
-            <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5" style="list-style-type: disc !important;">
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Strategic wave design and enemy pathing logic</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Level construction and battlefield decoration</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Gameplay balance and progression tuning</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Tactical camera framing and visual effects</b>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </a>
-    
-    <a
-      href="https://play.google.com/store/apps/details?id=com.divmob.fantasyleague"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="assets/img/Fantasy League.jpg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-      <div class="relative flex">
-        <div class="mt-1 flex">
-          <div class="md:-mt-1 ">
-            <span class="block pt-4 font-header text-xl font-bold uppercase text-primary">
-              Fantasy League (2019)
-            </span>
-            <div class="pt-2">
-              <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
-                For Fantasy League, I co-developed the core gameplay mechanics and designed the strategic campaign waves, including complex boss encounters and narrative-driven progression.
-                I constructed the world’s tactical grids using building blocks provided by the art team, following an iterative process that transformed basic layouts into detailed high-fantasy environments decorated with small props and foliage.
-                I was also responsible for battle visual effects and established cinematic camera curves for hero abilities to enhance the overall player immersion and tactical clarity.
-              </span>
-            </div>
-
-            <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5" style="list-style-type: disc !important;">
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Character's skills design based on META logic board</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Campaign design and boss mechanics</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>World construction and narrative</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>AI behavior design and gameplay balance</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Cinematic camera curves and visual effects</b>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </a>
-    
-    <a
-      href="https://play.google.com/store/apps/details?id=com.divmob.eternitylegends.leagueofgods"
-      class="mx-auto transform transition-all hover:scale-105 md:mx-0"
-    >
-      <img
-        src="assets/img/Eternity Legends.jpg"
-        class="w-full shadow"
-        alt="portfolio image"
-      />
-      <div class="relative flex">
-        <div class="mt-1 flex">
-          <div class="md:-mt-1 ">
-            <span class="block pt-4 font-header text-xl font-bold uppercase text-primary">
-              Eternity Legends (2018)
-            </span>
-            <div class="pt-2">
-              <span class="block font-body text-sm text-black" style="text-align: justify; display: block;">
-                For Eternity Legends, I designed the core combat systems and character abilities, focusing on creating engaging and scalable ARPG gameplay for mobile platforms.
-                I constructed the 3D combat arenas using modular building blocks, following an iterative process that refined initial greybox layouts into detailed environments decorated with props and foliage.
-                My role also involved establishing the visual feedback for combat and effects to ensure a polished and high-impact player experience.
-              </span>
-            </div>
-
-            <ul class="pt-4 text-left font-body text-sm text-black leading-relaxed pl-5" style="list-style-type: disc !important;">
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Core combat systems and character ability design</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Monetization strategies</b>
-              </li>
-              <li class="pb-1" style="display: list-item !important;">
-                <b>Gacha mechanics</b>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
-
-<div class="container bg-grey-50 py-16 md:py-20" id="work">
-  <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-  >
-    My work experience
-  </h2>
-  <h3
-    class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
-  >
-    Here's what I did before freelancing
-  </h3>
-
-  <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
-    <span
-      class="left-2/5 absolute inset-y-0 ml-10 hidden w-0.5 bg-grey-40 md:block"
-    ></span>
-
-    <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
-      <div class="md:w-2/5">
-        <div class="flex justify-center md:justify-center">
-          <span class="shrink-0">
-            <img
-              src="assets/img/divmob-logo.png"
-              class="h-12 w-auto"
-              alt="company logo"
-            />
-          </span>
-        </div>
-      </div>
-      <div class="md:w-3/5">
-        <div class="relative flex md:pl-18">
-          <span
-            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
-          ></span>
-
-          <div class="mt-1 flex">
-            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
-            <div class="md:-mt-1 md:pl-8">
-              <span class="block font-body font-bold text-grey-40"
-                >May 2016 - January 2025</span
-              >
-              <span
-                class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >Game Designer</span
-              >
-              <div class="pt-2">
-                <span class="block font-body text-black leading-relaxed text-justify" 
-                  >Developed diverse 2D and 3D titles for mobile by crafting core gameplay mechanics, combat systems, and AI behaviors.
-                  I collaborated with cross-functional teams to optimize mobile performance and implemented effective monetization strategies, including gacha and IAP, to ensure long-term retention.</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
-      <div class="md:w-2/5">
-        <div class="flex justify-center md:justify-center">
-          <span class="shrink-0">
-            <img
-              src="assets/img/ONEUNIVERSEVN_CI.png"
-              class="h-12 w-auto"
-              alt="company logo"
-            />
-          </span>
-        </div>
-      </div>
-      <div class="md:w-3/5">
-        <div class="relative flex md:pl-18">
-          <span
-            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
-          ></span>
-
-          <div class="mt-1 flex">
-            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
-            <div class="md:-mt-1 md:pl-8">
-              <span class="block font-body font-bold text-grey-40"
-                >March 2025 - July 2025</span
-              >
-              <span
-                class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >Senior Game Designer</span
-              >
-              <div class="pt-2">
-                <span class="block font-body text-black leading-relaxed text-justify"
-                  >Specialized in designing and rebalancing core RPG systems and character progression.
-                  I focused on researching and enhancing in-game monetization packages.</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
-      <div class="md:w-2/5">
-        <div class="flex justify-center md:justify-center">
-          <span class="shrink-0">
-            <img
-              src="assets/img/riddlers-logo.png"
-              class="h-24 w-auto"
-              alt="company logo"
-            />
-          </span>
-        </div>
-      </div>
-      <div class="md:w-3/5">
-        <div class="relative flex md:pl-18">
-          <span
-            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
-          ></span>
-
-          <div class="mt-1 flex">
-            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
-            <div class="md:-mt-1 md:pl-8">
-              <span class="block font-body font-bold text-grey-40"
-                >August 2025 - Present</span
-              >
-              <span
-                class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >Lead Game Designer</span
-              >
-              <div class="pt-2">
-                <span class="block font-body text-black leading-relaxed text-justify"
-                  >Directed game design strategies for Steam and mobile titles.
-                  I analyzed client requirements, managed development roadmaps, and led the level design team.
-                  Additionally, I reverse-engineered legacy systems and utilized data-driven insights to stabilize game balance and maximize revenue.</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container py-16 md:py-20" id="contact">
-  <h2
-    class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-  >
-    Here's my contact
-  </h2>
-  <h4
-    class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
-  >
-    Have Any Questions?
-  </h4>
-  <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
-    <p class="font-body text-grey-10">
-      Feel free to contact me, I will try to answer as soon as possible.
-    </p>
-  </div>
-  <div class="flex flex-col pt-16 lg:flex-row">
-    <div
-      class="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/2"
-    >
-      <div class="flex items-center">
-        <i class="bx bx-phone text-2xl text-grey-40"></i>
-        <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-          My Phone
+    <div class="bg-primary">
+      <div class="container flex flex-col justify-between py-6 sm:flex-row">
+        <p class="text-center font-body text-white md:text-left">
+          © Copyright 2026. Luong Quang Vu
         </p>
       </div>
-      <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-        (+84) 792 997 769
-      </p>
     </div>
-    <div
-      class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/2 lg:border-l-0 lg:border-t-2"
-    >
-      <div class="flex items-center">
-        <i class="bx bx-envelope text-2xl text-grey-40"></i>
-        <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-          My Email
-        </p>
-      </div>
-      <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-        luongquangvu94@gmail.com
-      </p>
-    </div>
+
   </div>
-</div>
 
-</div>
+  <script src="assets/js/main.js"></script>
 
-      <div class="bg-primary">
-        <div class="container flex flex-col justify-between py-6 sm:flex-row">
-          <p class="text-center font-body text-white md:text-left">
-            © Copyright 2026. Luong Quang Vu
-          </p>
-        </div>
-      </div>
 
-    </div>
+</body>
 
-    <script src="assets/js/main.js"></script>
-
-    
-  </body>
 </html>
