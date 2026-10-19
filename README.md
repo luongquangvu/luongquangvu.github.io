@@ -1,34 +1,14 @@
-# Atom - A vibrant portfolio template
-#### Preview
+# Luong Quang Vu - Senior Game Designer Portfolio
 
- - [Demo](https://themewagon.github.io/atom/)
+Personal portfolio website showcasing game design projects across Steam and Mobile platforms.
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/atom/)
+## Core Expertise
+- Combat Systems Design
+- Level Design & Modular Pipeline
+- Game Economy & Monetization (LiveOps)
+- Telemetry & KPI Analytics
 
-## Getting Started
-
-1. Clone Repository
-```
-git clone https://github.com/themewagon/atom.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
-
-```bash
-npm serve .
-```
-
-## Author 
-```
-Design and code is completely written by Red Pixel Themes and development team. 
-```
-
-## License
-
- - Design and Code is Copyright &copy; <a href="https://redpixelthemes.gumroad.com/" target="_blank">Red Pixel Themes</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+## Contact
+- Email: luongquangvu94@gmail.com
+- Phone: (+84) 792 997 769
+- LinkedIn: https://www.linkedin.com/in/vu-luongquang
